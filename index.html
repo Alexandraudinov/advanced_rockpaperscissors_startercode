@@ -4,7 +4,7 @@
   <head>
       <title>RPS Game</title>
       <!-- Link JQuery here -->
-      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <!-- Link Javascript File here -->
       <script src="js/script.js"></script>
       
@@ -26,20 +26,21 @@
      -->
     <div class="container text-center">
      <h1>RocK PapeR ScissorS!!!!!!!!!!</h1>
-       <p>Dertermine your Faith, are you a LOSER or WINNER?</p>
+       <p id="loser">Dertermine your Faith, are you a LOSER or WINNER?</p>
          <h2>How to Play</h2>
-           <p>If I need to tell you, GET OFF OF THIS GAME!</p>
+           <p id="go">If I need to tell you, GET OFF OF THIS GAME!</p>
              
                  <p><img class="img-responsive" classid="pic3" src="images/rps.png"></p>
               
                 <p></p>
                 
                <p><input>
-                 <button>!!!!!SHOOT!!!!!</button></p>
+                 <button id="button">!!!!!SHOOT!!!!!</button></p>
+              
+               <p></p>
                
                <div class="row">
-                 <div class="thumbnail"> 
-                   
+                 
                    <div class="col-sm-4">
                      <div id="user"><img id="pic4" src="images/me.png"></div>
                    </div>
@@ -48,18 +49,9 @@
                     <div id="computer"><img id="pic5" src="images/computer.png"></div>
                    </div>
                  
-                 </div>
-                </div>
-                
-               <div class="row">
-                 <div class="thumbnail">   
-                   
-                   <div class="col-sm-4">
-                    <div id="winner"><p id="cool"> And The Winner Is...</p><img src="images/computer.png"></div>
-                   </div>
-                 
-                 </div>  
                </div>
+                
+               
     </div>                   
                  
     
